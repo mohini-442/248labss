@@ -139,7 +139,6 @@
 .btn-1 {
   padding: 14px 32px !important;
   border-radius: 261px;
-  gap: 10px;
   background: linear-gradient(151.6deg, #D4145A 1.85%, #FBB03B 98.12%);
   transition: 0.5s;
 }
@@ -233,7 +232,7 @@
 
 .gamescard {
   height: 238px;
-  padding: 49px 24px !important;
+  padding: 49px 26px !important;
   border-radius: 30px;
   background: #1E1E1E73;
   transition: 0.5s;
@@ -281,7 +280,6 @@
 
 .color-gradient {
   background: linear-gradient(151.6deg, #D4145A 1.85%, #FBB03B 98.12%);
-  -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -294,7 +292,6 @@
 }
 
 /* =================levelup ===============*/
-
 
 .levelup {
   background-image: url(./assets/images/levelup.png);
@@ -424,7 +421,7 @@
   transform: scale(1.01);
 }
 
-.teamcard:hover .teamcardellipse {
+.teamcardellipse {
   width: 348.29px;
   height: 116.7px;
   background: linear-gradient(151.6deg, #D4145A 1.85%, #FBB03B 98.12%);
@@ -433,6 +430,19 @@
   bottom: -14%;
   left: 14%;
   z-index: -1;
+  opacity: 1;
+  transform: translateY(250%);
+  transition: 300ms;
+}
+
+.teamimg {
+  width: 236px;
+  height: 198.83px;
+}
+
+.teamcard:hover .teamcardellipse {
+  opacity: 1;
+  transform: translateY(0%);
 }
 
 .fs-20 {
@@ -446,10 +456,7 @@
   z-index: -1;
 }
 
-.teamimg {
-  width: 100%;
-  border-radius: 30px;
-}
+
 
 .lh-24 {
   line-height: 24px;
@@ -545,6 +552,8 @@
 }
 
 .road {
+  position: sticky;
+  top: 0;
   width: 40px;
   height: 40px;
 }
@@ -579,6 +588,7 @@
   border: 1px solid #FFFFFF29;
   color: #FFFFFFB0;
   outline: none !important;
+  appearance: none;
 }
 
 .formbox.box::before {
@@ -597,14 +607,13 @@
   pointer-events: none;
 }
 
-.overflow_hidden {
-  overflow: hidden !important;
-}
+
 
 .videoplay {
   position: absolute;
-  top: 45%;
-  left: 48%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   height: 35px;
   width: 35px;
   cursor: pointer;
@@ -613,7 +622,6 @@
 .checkbox {
   width: 20px;
   height: 24px;
-  border: 1px solid #000;
 }
 
 .max-w-547 {
@@ -626,9 +634,6 @@
   height: 36.5px;
   border: 0.5px solid #cac7c8;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   cursor: pointer;
   transition: 0.5s;
 }
@@ -678,7 +683,6 @@
 .bounce {
   animation: bounce 2s linear infinite;
 }
-
 
 @keyframes bounce {
   0% {
@@ -741,6 +745,10 @@
 }
 
 @media (max-width: 992px) {
+  .overflow_hidden {
+    overflow: hidden !important;
+  }
+
   .nav_bar {
     position: fixed;
     top: 0;
@@ -832,7 +840,7 @@
   }
 
   .teamcard {
-    width: 100%;
+    max-width: 578px;
     height: 100%;
     padding: 18px 12px 14px 13px !important;
   }

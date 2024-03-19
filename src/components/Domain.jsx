@@ -10,7 +10,7 @@ const Domain = () => {
                     <img src={domain} alt="" className='w-100 domainimg' />
                 </div>
                 <div className='row'>
-                    <div className='col-lg-4 d-flex align-items-center align-items-lg-start  flex-column' data-aos="zoom-in-up">
+                    <div className='col-lg-4 d-flex align-items-center align-items-lg-start justify-content-center justify-content-lg-start gap-2 mb-3 mb-lg-0 flex-lg-column' data-aos="zoom-in-up">
                         <li className='pb-2'><a href="" className='ff-roboto fs-xs fw-bold text-white domainbtn '>name@domain.com</a></li>
                         <li className='pt-sm-2 pt-lg-4 pt-2 pb-4 pb-lg-0'><a href="" className='ff-roboto  fs-xs fw-bold text-white  domainbtn2'>Make Your Move</a></li>
                     </div>

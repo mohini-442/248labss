@@ -1,4 +1,5 @@
 import React from 'react'
+import Slider from "react-slick";
 import teamimg1 from '../assets/images/teamimg1.png'
 import teamimg2 from '../assets/images/teamimg2.png'
 import teamimg3 from '../assets/images/teamimg3.png'
@@ -69,12 +70,48 @@ const teamcard = [
 
 
 const Ourteam = () => {
+    var settings = {
+        dots: false,
+        infinite: true,
+        arrows: false,
+        autoplay: true,
+        speed: 2000,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 9999,
+                settings: "unslick"
+            },
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 1.4,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    };
     const cards = teamcard.map((teamcard, i) => (
-        <div key={i} className='col-md-6 d-flex justify-content-center align-items-center mt-4'>
+        <div key={i} className='col-lg-6 d-flex justify-content-center align-items-center mt-4'>
             <div className='teamcard mx-2 position-relative z-2 overflow-hidden' data-aos="zoom-in-up">
-                <div className='d-xl-flex'>
+                <div className='d-flex'>
                     <img src={teamcard.img} alt="team" className='teamimg' />
-                    <div className='ps-xl-3'>
+                    <div className='ps-3'>
                         <div className='d-flex align-items-center gap-2 pt-3'>
                             <h2 className='fw-semibold ff-roboto text-white fs-20 text-nowrap'>{teamcard.head}</h2>
                             <p className='fw-normal ff-roboto fs-xs color-gradient text-nowrap'>{teamcard.heading}</p>
@@ -95,7 +132,7 @@ const Ourteam = () => {
                 </div>
                 <h2 className='fs-lg ff-roboto fw-bold text-white text-center pt-3' data-aos="zoom-in-up">Behind our expertise</h2>
                 <div className='row py-lg-5 py-2'>
-                    {cards}
+                    <Slider className=' ' {...settings}> {cards}</Slider>
                 </div>
             </div>
             <h2 className='op-6 text-white ff-roboto fs-xxl fw-bold ourteam d-none d-md-block'>Our Team</h2>

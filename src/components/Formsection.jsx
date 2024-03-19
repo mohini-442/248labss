@@ -22,7 +22,7 @@ const Formsection = () => {
                                 <div className='d-md-flex align-items-center gap-4'>
                                     <div className='d-flex flex-column pt-md-4 pt-2'>
                                         <label htmlFor="number" className='ff-roboto fs-xs fe-medium text-white'>Phone Number</label>
-                                        <input type="text" placeholder='+12 5858526478' className='formm mt-2 fs-xxs ff-roboto fw-normal' />
+                                        <input type="number" placeholder='+12 5858526478' className='formm mt-2 fs-xxs ff-roboto fw-normal' />
                                     </div>
                                     <div className='d-flex flex-column pt-md-4 pt-2'>
                                         <label htmlFor="number" className='ff-roboto fs-xs fe-medium text-white'>Email</label>
@@ -31,7 +31,7 @@ const Formsection = () => {
                                 </div>
                                 <div className='d-flex gap-3 pt-4'>
                                     <div className='check box'>
-                                        <input type="checkbox" className='checkbox' />
+                                        <input type="checkbox" />
                                     </div>
                                     <p className='ff-roboto fw-normal fs-s text-white max-w-547'>By sending this form I confirm that I have read and accept the Privacy Policy</p>
                                 </div>

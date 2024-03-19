@@ -11,7 +11,7 @@ const Loader = () => {
     return (
         <div class="overflow-x-clip overflow_hidden">
             <div id="preloader"
-                class="headerbg overflow_hidden w-100 min-vh-100 position-fixed d-flex justify-content-center flex-column align-items-center z_7 duration-100 cursor-pointer">
+                class="bg-black overflow_hidden w-100 min-vh-100 position-fixed d-flex justify-content-center flex-column align-items-center z_7 duration-100 cursor-pointer">
                 <img src={logo} alt="logo" className="animation logo-w" />
             </div>
         </div>
