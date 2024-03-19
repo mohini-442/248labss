@@ -68,14 +68,13 @@ const teamcard = [
 ];
 
 
-
 const Ourteam = () => {
     const cards = teamcard.map((teamcard, i) => (
-        <div key={i} className='col-xl-6 d-flex justify-content-center align-items-center'>
-            <div className='teamcard mx-2 position-relative z-2 overflow-hidden mt-4' data-aos="zoom-in-up">
-                <div className='d-sm-flex'>
+        <div key={i} className='col-md-6 d-flex justify-content-center align-items-center mt-4'>
+            <div className='teamcard mx-2 position-relative z-2 overflow-hidden' data-aos="zoom-in-up">
+                <div className='d-xl-flex'>
                     <img src={teamcard.img} alt="team" className='teamimg' />
-                    <div className='ps-sm-3'>
+                    <div className='ps-xl-3'>
                         <div className='d-flex align-items-center gap-2 pt-3'>
                             <h2 className='fw-semibold ff-roboto text-white fs-20 text-nowrap'>{teamcard.head}</h2>
                             <p className='fw-normal ff-roboto fs-xs color-gradient text-nowrap'>{teamcard.heading}</p>

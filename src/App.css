@@ -20,26 +20,14 @@
   --fs-xxl: 90px;
 
   /* color */
-
-  --gray: #bdbbcd;
   --off-white: #b2b2b2;
-  --brown: #83422e;
-
   /* font-family */
   --ff-Poppins: 'Poppins', Sans-serif;
   --ff-roboto: 'Roboto', Sans-serif;
 }
 
-.color-gray {
-  color: var(--gray);
-}
-
 .color-offwhite {
   color: var(--off-white);
-}
-
-.color-brown {
-  color: var(--brown);
 }
 
 .ff-roboto {
@@ -83,8 +71,6 @@
 .fs-xxl {
   font-size: var(--fs-xxl);
 }
-
-
 
 /* ============header-section=========== */
 .headerbg {
@@ -186,9 +172,7 @@
   width: 235px;
 }
 
-
 /* gamefirst */
-
 .gamebtn {
   position: relative;
   padding: 10px 20px !important;
@@ -226,7 +210,6 @@
   mask-composite: exclude;
   pointer-events: none;
 }
-
 
 .gameellipse {
   width: 402.67px;
@@ -346,10 +329,6 @@
   max-width: 793px !important;
 }
 
-
-
-
-
 /* =============domain ===============*/
 
 .domainimg {
@@ -383,7 +362,7 @@
 }
 
 .domainbtn:hover {
-  background: linear-gradient(13.6deg, #D4145A 10.85%, #FBB03B 68.12%);
+  box-shadow: 0px 0px 10px #e65e46;
 }
 
 .domainbtn::before {
@@ -468,8 +447,7 @@
 }
 
 .teamimg {
-  width: 236.7px;
-  height: 198.83px;
+  width: 100%;
   border-radius: 30px;
 }
 
@@ -627,8 +605,8 @@
   position: absolute;
   top: 45%;
   left: 48%;
-  height: 75px;
-  width: 75px;
+  height: 35px;
+  width: 35px;
   cursor: pointer;
 }
 
@@ -755,7 +733,7 @@
 .backbtn {
   bottom: 10px;
   right: 10px;
-  z-index: 50;
+  z-index: 4;
   background: linear-gradient(151.6deg, #D4145A 1.85%, #FBB03B 98.12%);
   width: 50px;
   height: 50px;
@@ -777,10 +755,6 @@
     gap: 24px;
     background-image: url(./assets//images/headerbg.png);
     z-index: 6 !important;
-  }
-
-  .min-vh-60 {
-    min-height: 60vh;
   }
 
   .navline {
@@ -833,8 +807,6 @@
 }
 
 @media (min-width:576px) {
-
-
   .formbg {
     background-size: 100% 100%;
     height: 990px;
@@ -855,14 +827,13 @@
   }
 
   .levelupcard {
-    width: 613.07px;
-    height: 296.92px;
+    width: 420.07px;
     padding: 34px 36px !important;
   }
 
   .teamcard {
-    max-width: 578px;
-    height: 359px;
+    width: 100%;
+    height: 100%;
     padding: 18px 12px 14px 13px !important;
   }
 }
@@ -877,7 +848,7 @@
   .roadmapcard {
     width: 477px !important;
     padding: 0 32px !important;
-    margin-left: 0 !important;
+    /* margin-left: 0 !important; */
   }
 
   .logo-w {
@@ -915,12 +886,14 @@
     height: 800px;
   }
 
-  .gamescard:hover {
-    transform: translateY(-16%);
+  .levelupcard {
+    width: 613.07px;
+    height: 296.92px;
+    padding: 34px 36px !important;
   }
 
-  .min-vh-lg-100 {
-    min-height: 100vh;
+  .gamescard:hover {
+    transform: translateY(-16%);
   }
 
   .text-lg-sart {
@@ -955,6 +928,11 @@
     right: -6%;
     top: -5%;
   }
+
+  .videoplay {
+    height: 75px;
+    width: 75px;
+  }
 }
 
 @media (min-width:1200px) {
@@ -962,6 +940,12 @@
     max-width: 373px;
   }
 
+  .teamcard {
+    height: 359px;
+  }
 
-
+  .teamimg {
+    width: 236px;
+    height: 198.83px;
+  }
 }

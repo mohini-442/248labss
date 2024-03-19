@@ -38,9 +38,9 @@ const Gamesfirst = () => {
                         </div>
                         <h2 className='fs-lg text-white ff-roboto fw-bold max-w-310 pt-3 text-center text-lg-start' data-aos="zoom-in-up">Game First.Always.</h2>
                     </div>
-                    <div className='col-lg-5'>
-                        <p className='ff-roboto fs-sfw-medium text-white pt-lg-5 pt-3 text-center text-lg-start' data-aos="zoom-in-up">This is difficult</p>
-                        <p className='ff-roboto fw-normal text-white op-70 fs-xs pt-2  text-center text-lg-start' data-aos="zoom-in-up">Web3 Games have a notoriously high barrier-to-entry for casual gamers who make up the vast majority of players. “Link your wallet” before gameplay is not just off-putting, it’s boring. We’re solving that with world-class storytelling, world-building, game design, art and sound. And fun.</p>
+                    <div className='col-lg-5' data-aos="zoom-in-up">
+                        <p className='ff-roboto fs-sfw-medium text-white pt-lg-5 pt-3 text-center text-lg-start' >This is difficult</p>
+                        <p className='ff-roboto fw-normal text-white op-70 fs-xs pt-2 text-center text-lg-start'>Web3 Games have a notoriously high barrier-to-entry for casual gamers who make up the vast majority of players. “Link your wallet” before gameplay is not just off-putting, it’s boring. We’re solving that with world-class storytelling, world-building, game design, art and sound. And fun.</p>
                     </div>
                 </Row>
                 <Row className='pt-lg-5 pb-5 pb-lg-0 mt-4 mb-lg-5 justify-content-center'>

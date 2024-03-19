@@ -11,7 +11,7 @@ const Headersection = () => {
     }
     return (
         <>
-            <div className='headerbg min-vh-lg-100 min-vh-60 d-flex flex-column' id='home'>
+            <div className='headerbg min-vh-100 d-flex flex-column' id='home'>
                 <Container className='px-3 mx-auto '>
                     <div className="d-flex align-items-center justify-content-between pt-4">
                         <div>
@@ -54,7 +54,7 @@ const Headersection = () => {
                         </div>
                     </div>
                 </Container>
-                <div className='px-2 d-flex align-items-center justify-content-center flex-column flex-grow-1'>
+                <div className='container mx-auto d-flex align-items-center justify-content-center flex-column flex-grow-1'>
                     <h1 className='fs-xl ff-roboto text-white fw-bold text-center max-w-873'>Changing the way games are made</h1>
                     <p className='fs-sm ff-roboto fw-normal text-white pt-2'>Redefining the future of play</p>
                 </div>
