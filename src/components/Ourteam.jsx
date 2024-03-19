@@ -1,4 +1,5 @@
 import React from 'react'
+import { Row } from 'react-bootstrap';
 import Slider from "react-slick";
 import teamimg1 from '../assets/images/teamimg1.png'
 import teamimg2 from '../assets/images/teamimg2.png'
@@ -86,12 +87,12 @@ const Ourteam = () => {
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 1.4,
+                    slidesToShow: 1.5,
                     slidesToScroll: 1,
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 800,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
@@ -109,9 +110,9 @@ const Ourteam = () => {
     const cards = teamcard.map((teamcard, i) => (
         <div key={i} className='col-lg-6 d-flex justify-content-center align-items-center mt-4'>
             <div className='teamcard mx-2 position-relative z-2 overflow-hidden' data-aos="zoom-in-up">
-                <div className='d-flex'>
+                <div className='d-sm-flex'>
                     <img src={teamcard.img} alt="team" className='teamimg' />
-                    <div className='ps-3'>
+                    <div className='ps-sm-3'>
                         <div className='d-flex align-items-center gap-2 pt-3'>
                             <h2 className='fw-semibold ff-roboto text-white fs-20 text-nowrap'>{teamcard.head}</h2>
                             <p className='fw-normal ff-roboto fs-xs color-gradient text-nowrap'>{teamcard.heading}</p>
@@ -126,13 +127,16 @@ const Ourteam = () => {
     ));
     return (
         <div id='team' className='position-relative z-2 overflow-hidden pt-lg-5'>
-            <div className='container mx-auto py-5 mt-md-5'>
+            <div className='container-lg mx-auto py-5 mt-md-5'>
                 <div className='d-flex justify-content-center' data-aos="zoom-in-up">
                     <li><a href="" className='fw-normal fs-xs ff-roboto gamebtn color-gradient pbtn '>Our Team</a></li>
                 </div>
                 <h2 className='fs-lg ff-roboto fw-bold text-white text-center pt-3' data-aos="zoom-in-up">Behind our expertise</h2>
-                <div className='row py-lg-5 py-2'>
-                    <Slider className=' ' {...settings}> {cards}</Slider>
+                <div className='row py-lg-5 py-2 d-none d-xl-block'>
+                    <Row {...settings}> {cards}</Row>
+                </div>
+                <div className='row py-lg-5 py-2 d-block d-xl-none'>
+                    <Slider {...settings}> {cards}</Slider>
                 </div>
             </div>
             <h2 className='op-6 text-white ff-roboto fs-xxl fw-bold ourteam d-none d-md-block'>Our Team</h2>
