@@ -55,8 +55,10 @@ const Headersection = () => {
                     </div>
                 </Container>
                 <div className='container px-2 mx-auto d-flex align-items-center justify-content-center flex-column flex-grow-1'>
-                    <h1 className='fs-xl ff-roboto text-white fw-bold text-center max-w-873'>Changing the way games are made</h1>
-                    <p className='fs-sm ff-roboto fw-normal text-white pt-2'>Redefining the future of play</p>
+                    <h1 className='fs-xl ff-roboto text-white fw-bold text-center max-w-873' data-aos="zoom-in"
+                        data-aos-duration="5000">Changing the way games are made</h1>
+                    <p className='fs-sm ff-roboto fw-normal text-white pt-2' data-aos="zoom-in"
+                        data-aos-duration="5000">Redefining the future of play</p>
                 </div>
             </div>
 
