@@ -8,7 +8,7 @@ const Myfooter = () => {
         <div className='position-relative overflow-hidden z-2'>
             <div className='container mx-auto py-5 ' data-aos="zoom-in-up">
                 <div className='d-flex justify-content-center align-items-center mx-auto flex-column '>
-                    <img src={logo} alt="logo" className='logo-w cursor-pointer' />
+                    <a href=""><img src={logo} alt="logo" className='logo-w cursor-pointer' /></a>
                     <ul className='d-flex align-items-center gap-4 pt-3'>
                         <li>
                             <a

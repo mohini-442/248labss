@@ -15,7 +15,7 @@ const Headersection = () => {
                 <Container className='px-3 mx-auto '>
                     <div className="d-flex align-items-center justify-content-between pt-4">
                         <div>
-                            <img src={logo} alt="logo" className='logo-w cursor-pointer' />
+                            <a href=""><img src={logo} alt="logo" className='logo-w cursor-pointer' /></a>
                         </div>
                         <ul className={`${show ? "left_100" : "left_0"} nav_bar d-flex`}>
                             <li onClick={() => setshow(!show)}>
@@ -42,7 +42,7 @@ const Headersection = () => {
                                     Roadmap
                                 </a>
                             </li>
-                            <li><a href="" className='ff-roboto ms-4 fs-xs fw-bold text-white btn-1'>Contact Us</a></li>
+                            <li><a href="" className='ff-roboto ms-lg-4 fs-xs fw-bold text-white btn-1'>Contact Us</a></li>
                         </ul>
                         <div
                             onClick={() => setshow(!show)}

@@ -13,10 +13,10 @@
   --fs-xxs: 13px;
   --fs-xs: 14px;
   --fs-s: 15px;
-  --fs-sm: 18px;
+  --fs-sm: 17px;
   --fs-md: 24px;
   --fs-lg: 30px;
-  --fs-xl: 52px;
+  --fs-xl: 42px;
   --fs-xxl: 90px;
 
   /* color */
@@ -170,6 +170,19 @@
 .img3w {
   width: 235px;
 }
+
+.img1w:hover {
+  opacity: 1;
+}
+
+.img2w:hover {
+  opacity: 1;
+}
+
+.img3w:hover {
+  opacity: 1;
+}
+
 
 /* gamefirst */
 .gamebtn {
@@ -434,7 +447,7 @@
 
 .teamcard {
   width: 100%;
-  height: 100%;
+  height: 650px;
   background: #1E1E1E73;
   padding: 18px 12px 14px 13px !important;
   border-radius: 30px;
@@ -618,6 +631,7 @@
   background: #FFFFFF1A;
   border-radius: 8px;
   height: 100%;
+  display: flex;
   /* border: 1px solid #FFFFFF29; */
   color: #FFFFFFB0;
   outline: none !important;
@@ -866,7 +880,8 @@
   .overflow_hidden {
     overflow: hidden;
   }
-  .min-vh-60{
+
+  .min-vh-60 {
     min-height: 60vh;
   }
 }
@@ -1001,7 +1016,7 @@
 
   .aboutus {
     right: -10%;
-    top: 3%;
+    top: -2%;
   }
 
   .videoplay {

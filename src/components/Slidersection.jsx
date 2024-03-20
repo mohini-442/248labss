@@ -48,36 +48,36 @@ const Slidersection = () => {
         <div className='bg-black py-md-5'>
             <Container className='mx-auto position-relative z-2 py-5 mt-5'>
                 <div className=''>
-                    <Slider className='brands pb-lg-5 mb-lg-5' {...settings}>
+                    <Slider className='brands pb-lg-5 cursor-pointer' {...settings}>
                         <div>
-                            <img src={img1} alt="img1" className='img1w mx-4 op-50 pt-4' />
+                            <img src={img1} alt="img1" className='img1w mx-4 op-50 pt-4 cursor-pointer' />
                         </div>
                         <div>
-                            <img src={img2} alt="img2" className='img2w mx-4 op-50' />
+                            <img src={img2} alt="img2" className='img2w mx-4 op-50 cursor-pointer' />
                         </div>
                         <div>
-                            <img src={img3} alt="img3" className='img3w mx-4 op-50' />
+                            <img src={img3} alt="img3" className='img3w mx-4 op-50 cursor-pointer' />
                         </div>
                         <div>
-                            <img src={img4} alt="img4" className='img3w mx-4 op-50 pt-4' />
+                            <img src={img4} alt="img4" className='img3w mx-4 op-50 pt-4 cursor-pointer' />
                         </div>
                         <div>
-                            <img src={img5} alt="img5" className='img2w mx-4 op-50' />
+                            <img src={img5} alt="img5" className='img2w mx-4 op-50 cursor-pointer' />
                         </div>
                         <div>
-                            <img src={img1} alt="img1" className='img1w mx-4 op-50 pt-4' />
+                            <img src={img1} alt="img1" className='img1w mx-4 op-50 pt-4 cursor-pointer' />
                         </div>
                         <div>
-                            <img src={img2} alt="img2" className='img2w mx-4 op-50' />
+                            <img src={img2} alt="img2" className='img2w mx-4 op-50 cursor-pointer' />
                         </div>
                         <div>
-                            <img src={img3} alt="img3" className='img3w mx-4 op-50' />
+                            <img src={img3} alt="img3" className='img3w mx-4 op-50 cursor-pointer' />
                         </div>
                         <div>
-                            <img src={img4} alt="img4" className='img3w mx-4 op-50 pt-4' />
+                            <img src={img4} alt="img4" className='img3w mx-4 op-50 pt-4 cursor-pointer' />
                         </div>
                         <div>
-                            <img src={img5} alt="img5" className='img2w mx-4 op-50' />
+                            <img src={img5} alt="img5" className='img2w mx-4 op-50 cursor-pointer' />
                         </div>
                     </Slider>
                 </div>
