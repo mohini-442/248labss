@@ -5,7 +5,7 @@ import videoplay from '../assets/images/videoplay.png'
 const Arich = () => {
     return (
         <div className='position-relative z-2 overflow-hidden pb-lg-5'>
-            <div className='container px-2 py-5 mx-auto mb-lg-5'>
+            <div className='container px-2 py-md-5 py-2 mx-auto mb-lg-5'>
                 <h2 className='text-white ff-roboto fw-bold fs-lg text-center pb-lg-5 pb-3' data-aos="zoom-in-up">A rich, inhabited, and licensable world.</h2>
                 <div className='position-relative '>
                     <img src={arich} alt="arich" className='w-100' />

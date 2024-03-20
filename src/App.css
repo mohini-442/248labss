@@ -180,6 +180,7 @@
   background: linear-gradient(151.6deg, rgba(212, 20, 90, 0.2) 1.85%, rgba(251, 176, 59, 0.2) 98.12%);
   backdrop-filter: blur(31.478700637817383px);
   background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
+  transition: 0.5s;
 }
 
 .gamebtn:hover {
@@ -407,6 +408,28 @@
 
 .pbtn {
   padding: 10px 19px !important;
+}
+
+.teamellipse {
+  width: 220.75px;
+  height: 214.77px;
+  opacity: 0.75px;
+  background: linear-gradient(151.6deg, #D4145A 1.85%, #FBB03B 98.12%);
+  filter: blur(179px);
+}
+
+.teame1 {
+  position: absolute;
+  top: 29%;
+  right: -10%;
+  z-index: -1;
+}
+
+.teame2 {
+  position: absolute;
+  bottom: 29%;
+  left: -10%;
+  z-index: -1;
 }
 
 .teamcard {
@@ -843,6 +866,9 @@
   .overflow_hidden {
     overflow: hidden;
   }
+  .min-vh-60{
+    min-height: 60vh;
+  }
 }
 
 @media (min-width:576px) {
@@ -931,6 +957,10 @@
     height: 800px;
   }
 
+  .min-vh-lg-100 {
+    min-height: 100vh;
+  }
+
   .levelupcard {
     width: 613.07px;
     height: 296.92px;
@@ -970,8 +1000,8 @@
   }
 
   .aboutus {
-    right: -6%;
-    top: -5%;
+    right: -10%;
+    top: 3%;
   }
 
   .videoplay {

@@ -43,7 +43,8 @@ const Formsection = () => {
                                     </div>
                                     <p className='ff-roboto fw-normal fs-s text-white max-w-547 pt-2'>By sending this form I confirm that I have read and accept the Privacy Policy</p>
                                 </div>
-                                <a href="" className='ff-roboto fs-xs fw-bold text-white btn-1 ms-0 mt-3 mb-3 position-relative z=2'>Subscribe</a>
+                                
+                                <li className='mt-4'> <a href="" className='ff-roboto fs-xs fw-bold text-white btn-1 ms-0 mb-3 position-relative z-2'>Subscribe</a></li>
                             </form>
                         </div>
                     </div>

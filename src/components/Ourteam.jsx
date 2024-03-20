@@ -127,7 +127,7 @@ const Ourteam = () => {
     ));
     return (
         <div id='team' className='position-relative z-2 overflow-hidden pt-lg-5'>
-            <div className='container-lg mx-auto py-5 mt-md-5'>
+            <div className='container-lg mx-auto py-md-5 py-2 mt-md-5'>
                 <div className='d-flex justify-content-center' data-aos="zoom-in-up">
                     <li><a href="" className='fw-normal fs-xs ff-roboto gamebtn color-gradient pbtn '>Our Team</a></li>
                 </div>
@@ -140,6 +140,8 @@ const Ourteam = () => {
                 </div>
             </div>
             <h2 className='op-6 text-white ff-roboto fs-xxl fw-bold ourteam d-none d-md-block'>Our Team</h2>
+            <div className='teamellipse teame1 d-none d-lg-block'></div>
+            <div className='teamellipse teame2 d-none d-lg-block'></div>
         </div>
     )
 }
