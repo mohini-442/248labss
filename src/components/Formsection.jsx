@@ -72,18 +72,18 @@ const FormSection = () => {
                 <div className="row align-items-center pt-sm-5 flex-column-reverse flex-lg-row">
                     <div data-aos="fade-right" className="col-lg-7 col-12 px-3 pt-4 pt-lg-0">
                         <div className="form-card w-100">
-                            <h2 className='ff-roboto fs-lg fw-bold lh-62 text-white pb-3'>Get updated with us</h2>
+                            <h2 className='ff-roboto fs-lg fw-bold lh-62 text-white text-center text-lg-start'>Get updated with us</h2>
                             <form onSubmit={handleSubmit}>
                                 <div className="d-sm-flex gap-4 pt-3">
-                                    <div className="d-flex flex-column w_50 w_100 pt-2 pt-sm-0">
+                                    <div className="d-flex flex-column w_50 w_100 bo xh pt-sm-4  pt-2 position-relative">
                                         {" "}
                                         <label
                                             htmlFor="FirstName"
-                                            className="ff-roboto fs-xs fw-medium lh-18 text-white mb-0 pb-3 "
+                                            className="ff-roboto fs-xs fw-medium lh-18 text-white mb-0 pb-md-2 pb-1 "
                                         >
                                             First Name
                                         </label>
-                                        <div className="inputPlace">
+                                        <div className="inputcard">
                                             <input
                                                 type="text"
                                                 id="FirstName"
@@ -91,22 +91,22 @@ const FormSection = () => {
                                                 value={formData.FirstName}
                                                 onChange={handleChange}
                                                 placeholder="Park Seijun"
-                                                className="ff-roboto lh-20 fw-normal fs-xxs inputM form-w "
+                                                className="ff-roboto lh-20 fw-normal fs-xxs input-text "
                                             />
                                         </div>
                                         {formErrors.FirstName && (
                                             <p className="error ff-Roboto">{formErrors.FirstName}</p>
                                         )}
                                     </div>
-                                    <div className="d-flex flex-column w_50 w_100 pt-2 pt-sm-0">
+                                    <div className="d-flex flex-column w_50 position-relative w_100 pt-4">
                                         {" "}
                                         <label
                                             htmlFor="LastName"
-                                            className="ff-roboto fs-xs fw-medium lh-18 text-white mb-0 pb-3 "
+                                            className="ff-roboto fs-xs fw-medium lh-18 text-white mb-0 pb-md-2 pb-1"
                                         >
                                             Last Name
                                         </label>
-                                        <div className="inputPlace  ">
+                                        <div className="inputcard">
                                             <input
                                                 type="text"
                                                 id="LastName"
@@ -114,7 +114,7 @@ const FormSection = () => {
                                                 value={formData.LastName}
                                                 onChange={handleChange}
                                                 placeholder="Sejiun"
-                                                className="ff-roboto lh-20 fw-normal fs-xxs  inputM form-w  "
+                                                className="ff-roboto lh-20 fw-normal fs-xxs input-text "
                                             />
                                         </div>
                                         {formErrors.LastName && (
@@ -122,16 +122,16 @@ const FormSection = () => {
                                         )}
                                     </div>
                                 </div>
-                                <div className="d-sm-flex gap-4 pt-4">
-                                    <div className="d-flex flex-column w_50 w_100 pt-2 pt-sm-0">
+                                <div className="d-sm-flex gap-4">
+                                    <div className="d-flex flex-column w_50 w_100 pt-4 position-relative">
                                         {" "}
                                         <label
                                             htmlFor="number"
-                                            className="ff-roboto fs-xs fw-medium lh-18 text-white mb-0 pb-3"
+                                            className="ff-roboto fs-xs fw-medium lh-18 text-white mb-0 pb-md-2 pb-1"
                                         >
                                             Phone Number
                                         </label>
-                                        <div className="inputPlace  ">
+                                        <div className="inputcard">
                                             <input
                                                 type="number"
                                                 id="number"
@@ -139,22 +139,22 @@ const FormSection = () => {
                                                 value={formData.number}
                                                 onChange={handleChange}
                                                 placeholder="+12 5858526478"
-                                                className="ff-roboto lh-20 fw-normal fs-xs off-gray inputM  form-w "
+                                                className="ff-roboto lh-20 fw-normal fs-xs off-gray input-text "
                                             />
                                         </div>
                                         {formErrors.number && (
                                             <p className="error ff_Roboto">{formErrors.number}</p>
                                         )}
                                     </div>
-                                    <div className="d-flex flex-column w_50 w_100 pt-2 pt-sm-0">
+                                    <div className="d-flex flex-column w_50 w_100 pt-4 position-relative">
                                         {" "}
                                         <label
                                             htmlFor="email"
-                                            className="ff-roboto fs-xs fw-medium lh-18 text-white mb-0 pb-3"
+                                            className="ff-roboto fs-xs fw-medium lh-18 text-white mb-0 pb-md-2 pb-1"
                                         >
                                             Email
                                         </label>
-                                        <div className="inputPlace  ">
+                                        <div className="inputcard">
                                             <input
                                                 type="mail"
                                                 id="email"
@@ -162,22 +162,22 @@ const FormSection = () => {
                                                 value={formData.email}
                                                 onChange={handleChange}
                                                 placeholder="Park@458@Gmail.com"
-                                                className="ff-roboto lh-20 fw-normal fs-xxs  inputM form-w  "
+                                                className="ff-roboto lh-20 fw-normal fs-xxs input-text"
                                             />
                                         </div>
                                         {formErrors.email && (
-                                            <p className="error ff-roboto lh-20 fw-normal fs-xxs off-gray">{formErrors.email}</p>
+                                            <p className="error ff-roboto lh-20 fw-normal fs-xxs">{formErrors.email}</p>
                                         )}
                                     </div>
                                 </div>
-                                <div className="d-flex gap-2 align-items-start pt-4">
+                                <div className="d-flex gap-2 align-items-start pt-5">
                                     <input
                                         type="checkbox"
                                         id="checkbox"
                                         defaultChecked={false}
                                         ref={checkRef} className="input_size"
                                     />
-                                    <p className="ff-roboto fs-s fw-normal lh-21 text-white pb-3">
+                                    <p className="ff-roboto fs-s fw-normal lh-21 text-white pb-sm-3 pb-1">
                                         By sending this form I confirm that I have read and accept the Privacy Policy
                                     </p>
                                 </div>
@@ -200,7 +200,7 @@ const FormSection = () => {
                     </div>
                     <div data-aos="fade-left" className="col-lg-5 d-flex align-items-center align-items-lg-start flex-column col-12 pt-4 pt-lg-0 px-3">
                         <h2 className='ff-roboto fs-20 fw-normal lh-28 text-white'>Stay updated</h2>
-                        <p className='ff-roboto fs-xs pt-lg-3 lh-24 fw-normal text-white text-center text-lg-start op-70'>At 248 Labs, our constant pursuit is to build engaging games that spared joy. Don’t hesitate to reach out to us with your thoughts and messages - we are all ears!</p>
+                        <p className='ff-roboto fs-xs pt-lg-3 lh-24 fw-normal text-white text-center text-lg-start op-70 text-capitalize max-w-373'>At 248 Labs, our constant pursuit is to build engaging games that spared joy. Don’t hesitate to reach out to us with your thoughts and messages - we are all ears!</p>
                         <h2 className='ff-roboto fs-20 fw-normal lh-28 text-white pt-lg-4 pt-2 pb-lg-2'>Address</h2>
                         <a
                             href="https://maps.app.goo.gl/7pka2vLvmguW9CMS6"

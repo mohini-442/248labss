@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import domain from '../assets/images/domain.png'
+import domain from '../assets/images/domain.webp'
 
 const Domain = () => {
     return (

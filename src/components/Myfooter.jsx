@@ -74,8 +74,8 @@ const Myfooter = () => {
             </div>
             <div className='footline'></div>
             <p className='fs-xxs ff-roboto text-white fw-normal text-center py-4'>© {year} 248 Labs. All rights reserved</p>
-            <div className='footerellipse d-none d-md-block'></div>
-            <div className='footerellipse2 d-none d-md-block'></div>
+            <div className='footerellipse d-none d-lg-block'></div>
+            <div className='footerellipse2 d-none d-lg-block'></div>
         </div>
     )
 }

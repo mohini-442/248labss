@@ -127,7 +127,7 @@ const Ourteam = () => {
     ));
     return (
         <div id='team' className='position-relative z-2 overflow-hidden pt-5'>
-            <div className='container-lg mx-auto py-md-5 py-2 mt-md-5'>
+            <div className='container-lg mx-auto py-md-5 pb-4 pb-sm-0 py-2 mt-md-5'>
                 <div className='d-flex justify-content-center' data-aos="zoom-in-up">
                     <li><a href="" className='fw-normal fs-xs ff-roboto gamebtn color-gradient pbtn '>Our Team</a></li>
                 </div>

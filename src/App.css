@@ -74,7 +74,7 @@
 
 /* ============header-section=========== */
 .headerbg {
-  background-image: url(./assets/images/headerbg.png);
+  background-image: url(./assets/images/headerbg.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -141,6 +141,7 @@
   border-radius: 261px;
   background: linear-gradient(151.6deg, #D4145A 1.85%, #FBB03B 98.12%);
   transition: 0.5s;
+  border: none !important;
 }
 
 .btn-1:hover {
@@ -251,6 +252,7 @@
   background: #1E1E1E73;
   transition: 0.5s;
   cursor: pointer;
+  border: 1px solid transparent;
 }
 
 .box {
@@ -308,7 +310,7 @@
 /* =================levelup ===============*/
 
 .levelup {
-  background-image: url(./assets/images/levelup.png);
+  background-image: url(./assets/images/levelup.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -405,6 +407,23 @@
 }
 
 /* ===============arich=================== */
+.modal-dialog {
+  max-width: 700px !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.modal-content {
+  background-color: #000 !important;
+}
+
+.closebtn {
+  background-color: var(--off-white) !important;
+  color: white !important;
+  padding: 8px 24px !important;
+  margin: 12px !important;
+
+}
 
 .arichellipse {
   width: 362.9px;
@@ -447,7 +466,7 @@
 
 .teamcard {
   width: 100%;
-  height: 650px;
+  height: 670px;
   background: #1E1E1E73;
   padding: 18px 12px 14px 13px !important;
   border-radius: 30px;
@@ -533,7 +552,7 @@
   margin-left: 70px !important;
   margin-right: 20px !important;
   transition: 0.5s;
-  cursor: pointer;
+  cursor: pointer
 }
 
 .roadmapcard:hover .roadmapcardellipse {
@@ -545,6 +564,7 @@
   bottom: -87%;
   left: 12%;
   z-index: -1;
+  border: 1px solid transparent;
 }
 
 .roadmapcard:hover {
@@ -615,7 +635,7 @@
 }
 
 .formbg {
-  background-image: url(./assets/images/formbgimage.png);
+  background-image: url(./assets/images/formbgimage.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -647,7 +667,7 @@
   z-index: -1;
 }
 
-.inputM {
+.input-text {
   background: transparent;
   outline: none;
   border: 1px solid gray;
@@ -660,11 +680,11 @@
   color: #FFFFFFB0;
 }
 
-.inputM:hover {
+.input-text:hover {
   border: 1px solid transparent
 }
 
-.inputPlace {
+.inputcard {
   width: 100% !important;
   position: relative;
   background: #FFFFFF1A;
@@ -677,7 +697,7 @@
   margin-top: 5px !important;
 }
 
-.inputPlace::before {
+.inputcard::before {
   content: "";
   position: absolute;
   top: 0;
@@ -695,7 +715,7 @@
   opacity: 0;
 }
 
-.inputPlace:hover::before {
+.inputcard:hover::before {
   opacity: 1;
 }
 
@@ -729,6 +749,9 @@
   font-size: var(--fs-xs);
   font-weight: 500;
   margin-top: 5px;
+  position: absolute;
+  bottom: -24%;
+
 }
 
 .popup {
@@ -742,6 +765,11 @@
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   z-index: 999;
+}
+
+.error2 {
+  position: absolute;
+  bottom: -7% !important;
 }
 
 .paddingClose {
@@ -875,6 +903,10 @@
   background-color: #261646;
 }
 
+.max-w-373 {
+  max-width: 373px;
+}
+
 /* ================back-to-top================== */
 
 .backbtn {
@@ -904,7 +936,7 @@
     justify-content: center;
     flex-direction: column;
     gap: 24px;
-    background-image: url(./assets//images/headerbg.png);
+    background-image: url(./assets//images/headerbg.webp);
     z-index: 6 !important;
   }
 
@@ -972,10 +1004,6 @@
     height: 104px;
   }
 
-  .form-card {
-    padding: 40px 41px !important;
-  }
-
   .teamimg {
     width: 236px;
     height: 198.83px;
@@ -1001,6 +1029,14 @@
     width: 726px;
     height: 520.96px;
     padding: 40px !important;
+  }
+
+  .input-text {
+    height: 60px !important;
+  }
+
+  .form-card {
+    padding: 40px 41px !important;
   }
 
   .levelup {
