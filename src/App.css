@@ -18,7 +18,6 @@
   --fs-lg: 30px;
   --fs-xl: 42px;
   --fs-xxl: 90px;
-
   /* color */
   --off-white: #b2b2b2;
   /* font-family */
@@ -108,8 +107,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 24px;
-  list-style-type: none !important;
   margin-bottom: 0;
   margin-left: 0;
   padding-left: 0;
@@ -145,7 +142,8 @@
 }
 
 .btn-1:hover {
-  background: linear-gradient(13.6deg, #D4145A 10.85%, #FBB03B 68.12%);
+  /* background: linear-gradient(13.6deg, #D4145A 10.85%, #FBB03B 68.12%); */
+  background: #e04650;
 }
 
 .op-70 {
@@ -184,12 +182,10 @@
   opacity: 1;
 }
 
-
 /* gamefirst */
 .gamebtn {
   position: relative;
   padding: 10px 20px !important;
-  display: inline-block;
   border-radius: 32px;
   background: linear-gradient(151.6deg, rgba(212, 20, 90, 0.2) 1.85%, rgba(251, 176, 59, 0.2) 98.12%);
   backdrop-filter: blur(31.478700637817383px);
@@ -246,7 +242,6 @@
 }
 
 .gamescard {
-  height: 238px;
   padding: 49px 26px !important;
   border-radius: 30px;
   background: #1E1E1E73;
@@ -268,7 +263,6 @@
   inset: 0;
   border-radius: 32px;
   padding: 1px;
-  /* control the border thickness */
   background: linear-gradient(151.6deg, rgba(212, 20, 90, 0.4) 1.85%, rgba(251, 176, 59, 0.4) 98.12%);
   -webkit-mask:
     linear-gradient(#fff 0 0) content-box,
@@ -308,7 +302,6 @@
 }
 
 /* =================levelup ===============*/
-
 .levelup {
   background-image: url(./assets/images/levelup.webp);
   background-position: center;
@@ -362,7 +355,7 @@
 }
 
 .domainbtn2:hover {
-  background: linear-gradient(13.6deg, #D4145A 10.85%, #FBB03B 68.12%);
+  background: #e04650;
 }
 
 .domainbtn {
@@ -513,15 +506,13 @@
   z-index: -1;
 }
 
-
-
 .lh-24 {
   line-height: 24px;
 }
 
 /*============= whatnext================ */
 .whatnext {
-  background-image: url(./assets//images/forest.png);
+  background-image: url(./assets//images/forest.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -624,7 +615,7 @@
 }
 
 /* ===============formsection =================*/
-/* formsec */
+
 .form-card {
   position: relative;
   border-radius: 30px;
@@ -719,30 +710,6 @@
   opacity: 1;
 }
 
-.InputBtnPadding {
-  padding: 16px 32px;
-}
-
-.borderIcon {
-  border-radius: 30px;
-  border: 1px solid var(--main);
-  width: 36px;
-  height: 36px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: all linear 300ms;
-}
-
-.borderIcon:hover {
-  transform: translateY(-20%);
-}
-
-.border_t {
-  border-top: 1px solid var(--black-ligth);
-  padding-top: 22px;
-  padding-bottom: 22px;
-}
 
 .error {
   color: #ed0f0f;
@@ -751,7 +718,6 @@
   margin-top: 5px;
   position: absolute;
   bottom: -24%;
-
 }
 
 .popup {
@@ -759,21 +725,18 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: var(--black-ligth);
+  background: #b2b2b2;
   border: 1px solid transparent;
-  padding: 20px;
+  padding: 20px !important;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   z-index: 999;
 }
 
-.error2 {
-  position: absolute;
-  bottom: -7% !important;
-}
 
 .paddingClose {
-  padding: 10px 20px;
+  padding: 8px 20px !important;
+  border-radius: 50px;
 }
 
 .border-radius-img {

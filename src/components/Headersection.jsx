@@ -17,7 +17,7 @@ const Headersection = () => {
                         <div>
                             <a href=""><img src={logo} alt="logo" className='logo-w cursor-pointer' /></a>
                         </div>
-                        <ul className={`${show ? "left_100" : "left_0"} nav_bar d-flex`}>
+                        <ul className={`${show ? "left_100" : "left_0"} gap-4 nav_bar d-flex`}>
                             <li onClick={() => setshow(!show)}>
                                 <a
                                     className="text-white op-70 ff-roboto fs-xs navhover fw-normal nav_line position-relative"
