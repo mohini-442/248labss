@@ -479,7 +479,7 @@
   bottom: -14%;
   left: 14%;
   z-index: -1;
-  opacity: 1;
+  opacity: 0;
   transform: translateY(250%);
   transition: 300ms;
 }
@@ -544,7 +544,8 @@
   transition: 0.5s;
   cursor: pointer
 }
-.roadmapcard .roadmapcardellipse {
+
+.roadmapcardellipse {
   width: 348.29px;
   height: 116.7px;
   background: linear-gradient(151.6deg, #D4145A 1.85%, #FBB03B 98.12%);
@@ -556,29 +557,16 @@
   opacity: 0;
   border: 1px solid transparent;
 }
+
 .roadmapcard:hover .roadmapcardellipse {
-  width: 348.29px;
-  height: 116.7px;
-  background: linear-gradient(151.6deg, #D4145A 1.85%, #FBB03B 98.12%);
-  filter: blur(123px);
-  position: absolute;
-  bottom: -87%;
-  left: 12%;
   opacity: 1;
-  z-index: -1;
-  border: 1px solid transparent;
+  transform: translateY(0%);
 }
 
 .roadmapcard:hover {
   transform: scale(1.01);
 }
 
-.box {
-  position: relative;
-  padding: 20px 30px;
-  display: inline-block;
-  font-size: 30px;
-}
 .roadmapcard.box::before {
   content: "";
   position: absolute;
@@ -595,21 +583,10 @@
   pointer-events: none;
   opacity: 0;
 }
+
 .roadmapcard:hover.box::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 32px;
-  padding: 1px;
-  /* control the border thickness */
-  background: linear-gradient(151.6deg, rgba(212, 20, 90, 0.4) 1.85%, rgba(251, 176, 59, 0.4) 98.12%);
-  -webkit-mask:
-    linear-gradient(#fff 0 0) content-box,
-    linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-  pointer-events: none;
   opacity: 1;
+  transform: translateY(0%);
 }
 
 .roadmapbg {
@@ -783,7 +760,6 @@
   opacity: 1;
 }
 
-
 .error {
   color: #ed0f0f;
   font-size: var(--fs-xs);
@@ -805,7 +781,6 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   z-index: 999;
 }
-
 
 .paddingClose {
   padding: 8px 20px !important;
@@ -886,7 +861,6 @@
 }
 
 /*=================== preloader================= */
-
 .bounce {
   animation: bounce 2s linear infinite;
 }
@@ -1061,12 +1035,6 @@
 }
 
 @media (min-width:768px) {
-  .formbox {
-    width: 726px;
-    height: 520.96px;
-    padding: 40px !important;
-  }
-
   .input-text {
     height: 60px !important;
   }
@@ -1104,11 +1072,6 @@
 
   .gamescard {
     height: 272px;
-  }
-
-  .inputbox {
-    width: 310px;
-    height: 60px;
   }
 
   .formtext {
@@ -1181,14 +1144,6 @@
     max-width: 373px;
   }
 
-  .formbox {
-    width: 100%;
-  }
-
-  .inputbox {
-    width: 280px;
-  }
-
   .teamcard {
     width: 100% !important;
     max-width: none !important;
@@ -1196,19 +1151,5 @@
 
   .teamimg {
     width: 236px;
-  }
-}
-
-@media (min-width:1400px) {
-  .formbox {
-    width: 100%;
-  }
-
-  .formbox {
-    width: 726px;
-  }
-
-  .inputbox {
-    width: 310px;
   }
 }
