@@ -82,8 +82,8 @@ const Myroadmap = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='roadmapline d-bloack d-lg-none d-xl-block'>
-                        <div className='d-flex flex-column align-items-center position-relative'>
+                    <div className='roadmapline d-block d-lg-none d-xl-block'>
+                        <div className='d-flex flex-column align-items-center position-relative '>
                             <img src={road} alt="road" className='road' />
                             <img src={line} alt="line" className='line ' />
                         </div>

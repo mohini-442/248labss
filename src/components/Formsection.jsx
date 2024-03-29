@@ -170,16 +170,9 @@ const FormSection = () => {
                                         )}
                                     </div>
                                 </div>
-                                <div className="d-flex gap-2 align-items-start pt-5">
-                                    <input
-                                        type="checkbox"
-                                        id="checkbox"
-                                        defaultChecked={false}
-                                        ref={checkRef} className="input_size"
-                                    />
-                                    <p className="ff-roboto fs-s fw-normal lh-21 text-white pb-sm-3 pb-1">
-                                        By sending this form I confirm that I have read and accept the Privacy Policy
-                                    </p>
+                                <div className="form-group pt-3">
+                                    <input type="checkbox" id="html" />
+                                    <label for="html" className="ff-roboto fs-s fw-normal lh-21 text-white"> By sending this form I confirm that I have read and accept the Privacy Policy</label>
                                 </div>
                                 <button className='ff-roboto mt-4 mb-2 fs-xs fw-bold text-white btn-1 ms-0 position-relative z-2'>Subscribe</button>
                             </form>
