@@ -544,7 +544,18 @@
   transition: 0.5s;
   cursor: pointer
 }
-
+.roadmapcard .roadmapcardellipse {
+  width: 348.29px;
+  height: 116.7px;
+  background: linear-gradient(151.6deg, #D4145A 1.85%, #FBB03B 98.12%);
+  filter: blur(123px);
+  position: absolute;
+  bottom: -87%;
+  left: 12%;
+  z-index: -1;
+  opacity: 0;
+  border: 1px solid transparent;
+}
 .roadmapcard:hover .roadmapcardellipse {
   width: 348.29px;
   height: 116.7px;
@@ -553,6 +564,7 @@
   position: absolute;
   bottom: -87%;
   left: 12%;
+  opacity: 1;
   z-index: -1;
   border: 1px solid transparent;
 }
@@ -567,7 +579,22 @@
   display: inline-block;
   font-size: 30px;
 }
-
+.roadmapcard.box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 32px;
+  padding: 1px;
+  /* control the border thickness */
+  background: linear-gradient(151.6deg, rgba(212, 20, 90, 0.4) 1.85%, rgba(251, 176, 59, 0.4) 98.12%);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  opacity: 0;
+}
 .roadmapcard:hover.box::before {
   content: "";
   position: absolute;
@@ -582,6 +609,7 @@
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   pointer-events: none;
+  opacity: 1;
 }
 
 .roadmapbg {
@@ -616,7 +644,6 @@
 /* ===============formsection =================*/
 .form-group {
   display: block;
-  /* margin-bottom: 15px; */
 }
 
 .form-group input {
@@ -1092,7 +1119,7 @@
 @media (min-width:992px) {
   .roadmapline {
     top: 3%;
-    left: 46%;
+    left: 47%;
     height: 800px;
   }
 
