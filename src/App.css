@@ -347,7 +347,7 @@
 
 .domainbtn2 {
   background: linear-gradient(151.6deg, #D4145A 1.85%, #FBB03B 98.12%);
-  padding: 15px 32px !important;
+  padding: 16px 32px !important;
   max-width: 237px !important;
   border-radius: 261px;
   transition: .5s;
@@ -1069,7 +1069,7 @@
   }
 
   .domainbtn2 {
-    padding: 12px 40px !important;
+    padding: 16px 48px !important;
     max-width: 237px !important;
   }
 

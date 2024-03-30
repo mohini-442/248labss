@@ -46,7 +46,7 @@ const Slidersection = () => {
     };
     return (
         <div className='bg-black py-md-5'>
-            <Container className='mx-auto position-relative z-2 py-5 mt-md-5'>
+            <Container className='mx-auto position-relative z-2 py-5 mt-2 mt-md-5'>
                 <div className=''>
                     <Slider className='brands pb-lg-5 cursor-pointer' {...settings}>
                         <div>
