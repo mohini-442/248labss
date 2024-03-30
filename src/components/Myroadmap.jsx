@@ -11,7 +11,7 @@ const Myroadmap = () => {
         <div className='position-relative z-2 overflow-hidden roadmapbg py-md-5' id='roadmap'>
             <div className='container-lg mx-auto py-lg-5 my-5'>
                 <div className='d-flex justify-content-center pt-md-5'>
-                    <li><a href="" className='fw-normal fs-xs ff-roboto gamebtn color-gradient pbtn mx-auto' data-aos="zoom-in-up">ROADMAP</a></li>
+                    <li className='fw-normal fs-xs ff-roboto gamebtn color-gradient pbtn mx-auto ' data-aos="zoom-in-up">ROADMAP</li>
                 </div>
                 <h2 className='ff-roboto text-white fw-bold fs-lg text-center pt-2' data-aos="zoom-in-up">Milestones and markers</h2>
                 <div className='position-relative'>

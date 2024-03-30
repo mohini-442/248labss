@@ -34,7 +34,7 @@ const Gamesfirst = () => {
                 <Row className='py-md-5 '>
                     <div className='col-lg-7 col-12 d-flex align-items-center align-items-lg-start flex-column '>
                         <div>
-                            <a href="" className='fw-normal fs-xs ff-roboto gamebtn color-gradient' data-aos="zoom-in-up">DOERS OVER TALKERS</a>
+                            <li className='fw-normal fs-xs ff-roboto gamebtn color-gradient' data-aos="zoom-in-up">DOERS OVER TALKERS</li>
                         </div>
                         <h2 className='fs-lg text-white ff-roboto fw-bold max-w-310 pt-3 text-center text-lg-start' data-aos="zoom-in-up">Game First.Always.</h2>
                     </div>

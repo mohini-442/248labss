@@ -337,7 +337,7 @@
 /* =============domain ===============*/
 
 .domainimg {
-  height: 222.27px;
+  height: 262.27px;
   border-radius: 30px;
 }
 
@@ -566,7 +566,6 @@
 .roadmapcard:hover {
   transform: scale(1.01);
 }
-
 .roadmapcard.box::before {
   content: "";
   position: absolute;
@@ -1066,7 +1065,7 @@
   }
 
   .domainbtn2 {
-    padding: 16px 44px !important;
+    padding: 12px 40px !important;
     max-width: 237px !important;
   }
 
@@ -1086,8 +1085,8 @@
     height: 800px;
   }
 
-  .min-vh-lg-100 {
-    min-height: 100vh;
+  .min-vh-lg-screen {
+    min-height: 98vh;
   }
 
   .levelupcard {

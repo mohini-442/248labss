@@ -11,7 +11,7 @@ const Headersection = () => {
     }
     return (
         <>
-            <div className='headerbg min-vh-lg-100 min-vh-60 d-flex flex-column' id='home'>
+            <div className='headerbg min-vh-lg-screen min-vh-60 d-flex flex-column' id='home'>
                 <Container className='px-3 mx-auto '>
                     <div className="d-flex align-items-center justify-content-between pt-4">
                         <div>
