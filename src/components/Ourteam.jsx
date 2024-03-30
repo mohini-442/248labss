@@ -1,14 +1,14 @@
 import React from 'react'
 import { Row } from 'react-bootstrap';
 import Slider from "react-slick";
-import teamimg1 from '../assets/images/teamimg1.png'
-import teamimg2 from '../assets/images/teamimg2.png'
-import teamimg3 from '../assets/images/teamimg3.png'
-import teamimg4 from '../assets/images/teamimg4.png'
-import teamimg5 from '../assets/images/teamimg5.png'
-import teamimg6 from '../assets/images/teamimg6.png'
-import teamimg7 from '../assets/images/teamimg7.png'
-import teamimg8 from '../assets/images/teamimg8.png'
+import teamimg1 from '../assets/images/teamimg1.webp'
+import teamimg2 from '../assets/images/teamimg2.webp'
+import teamimg3 from '../assets/images/teamimg3.webp'
+import teamimg4 from '../assets/images/teamimg4.webp'
+import teamimg5 from '../assets/images/teamimg5.webp'
+import teamimg6 from '../assets/images/teamimg6.webp'
+import teamimg7 from '../assets/images/teamimg7.webp'
+import teamimg8 from '../assets/images/teamimg8.webp'
 
 const teamcard = [
     {
