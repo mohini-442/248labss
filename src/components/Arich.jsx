@@ -9,7 +9,7 @@ const Arich = () => {
             <div className='container px-2 py-md-5 py-3 mx-auto mb-lg-5'>
                 <h2 className='text-white ff-roboto fw-bold fs-lg text-center pb-lg-5 pb-3' data-aos="zoom-in-up">A rich, inhabited, and licensable world.</h2>
                 <div className='position-relative '>
-                    <img src={arich} alt="arich" className='w-100' />
+                    <img src={arich} alt="arich" className='w-100 arichimg' />
                     <div className='videoplay'>
                         <Mymodal />
                     </div>

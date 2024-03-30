@@ -13,7 +13,7 @@ const Headersection = () => {
         <>
             <div className='headerbg min-vh-lg-screen min-vh-60 d-flex flex-column' id='home'>
                 <Container className='px-3 mx-auto '>
-                    <div className="d-flex align-items-center justify-content-between pt-4">
+                    <div className="d-flex align-items-center justify-content-between pt-lg-4 pt-2">
                         <div>
                             <a href=""><img src={logo} alt="logo" className='logo-w cursor-pointer' /></a>
                         </div>

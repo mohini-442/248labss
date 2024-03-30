@@ -30,7 +30,7 @@ const Gamesfirst = () => {
 
     return (
         <div className='position-relative z-2 overflow-hidden' id='aboutus'>
-            <Container className='mx-auto px-2 py-lg-5 mb-4 py-3'>
+            <Container className='mx-auto px-2 py-lg-5 mb-md-4 py-3'>
                 <Row className='py-md-5 '>
                     <div className='col-lg-7 col-12 d-flex align-items-center align-items-lg-start flex-column '>
                         <div>
