@@ -129,7 +129,7 @@ const Ourteam = () => {
         <div id='team' className='position-relative z-2 overflow-hidden pt-5'>
             <div className='container-lg mx-auto py-md-5 pb-4 pb-sm-0 py-2 mt-md-5'>
                 <div className='d-flex justify-content-center' data-aos="zoom-in-up">
-                    <li className='fw-normal fs-xs ff-roboto gamebtn color-gradient pbtn'> Our Team</li>
+                    <span className='fw-normal fs-xs ff-roboto gamebtn color-gradient pbtn'> Our Team</span>
                 </div>
                 <h2 className='fs-lg ff-roboto fw-bold text-white text-center pt-3' data-aos="zoom-in-up">Behind our expertise</h2>
                 <div className='row py-lg-5 py-2 d-none d-xl-block'>

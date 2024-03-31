@@ -6,7 +6,7 @@ const Whatnext = () => {
             <h2 className='ff-roboto fs-lg fw-bold text-white text-center' data-aos="zoom-in-up">What’s Next</h2>
             <p className='ff-roboto fw-semibold fs-xs text-white pt-3 text-center' data-aos="zoom-in-up">92% of gamers have never even tried a Web3 game. We’re going to change that.</p>
             <p className='fw-normal fs-xs ff-roboto text-white op-70 pt-2 text-center' data-aos="zoom-in-up"> 248Labs The market is worth about a gazillion dollars, so whatever those stats were, that goes here.</p>
-            <li className='mt-4 ff-roboto fs-s fw-bold text-white cursor-pointer  domainbtn2' data-aos="zoom-in-up">Try to keep up</li>
+            <span className='mt-4 ff-roboto fs-s fw-bold text-white cursor-pointer  domainbtn2' data-aos="zoom-in-up">Try to keep up</span>
         </div>
     )
 }

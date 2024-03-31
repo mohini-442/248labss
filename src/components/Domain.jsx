@@ -11,8 +11,8 @@ const Domain = () => {
                 </div>
                 <div className='row'>
                     <div className='col-lg-4 d-flex align-items-center align-items-lg-start justify-content-center justify-content-lg-start gap-2 mb-3 mb-lg-0 flex-column flex-sm-row flex-lg-column' data-aos="zoom-in-up">
-                        <li className='pb-2'><a href="" className='ff-roboto fs-xs fw-bold text-white domainbtn '>name@domain.com</a></li>
-                        <li className='pt-sm-2 pt-lg-4 pt-sm-2 pb-sm-4 pb-lg-0 mt-1 mt-lg-0'><a href="" className='ff-roboto  fs-xs fw-bold text-white domainbtn2'>Make Your Move</a></li>
+                        <span className='pb-2'><a href="" className='ff-roboto fs-xs fw-bold text-white domainbtn '>name@domain.com</a></span>
+                        <span className='pt-sm-2 pt-lg-4 pt-sm-2 pb-sm-4 pb-lg-0 mt-1 mt-lg-0'><a href="" className='ff-roboto  fs-xs fw-bold text-white domainbtn2'>Make Your Move</a></span>
                     </div>
                     <div className='col-lg-8 pt-2 pt-md-0 text-center text-lg-start' data-aos="zoom-in-up">
                         <p className='ff-roboto  fw-normal color-offwhite fs-xs '>Unveiled is a unique <span className='fw-semibold text-white'>Collectible Card Game</span>  in which you gain fervour for your ventures, spending it on mercenaries, spies, automata, and influence.
